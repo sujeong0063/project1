@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>KIWOOM HEROES</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+	<style>
+	body {
+	background: #ffe3f1 url("images/back.png");
+	}
+	pre {
+	font-family: 'Poor Story';
+	}
+	h3 {
+	margin: 30px 5px 0px 5px;
+	font-size: 25px;
+	}
+	a { 
+	text-decoration: none;
+	color: #880044;
+	}
+	a:hover{
+	text-decoration: underline;
+	color: #d20069;
+	}
+
+	
+	</style>
+
+</head>
+	
+	
+
+<body>
+<h3><a href="intro_2.html">&#10096;KIWOOM HEROES LOCATION &#10097;</a></h3>
+<article> 
+		
+		<script src="http://code.jquery.com/jquery-latest.js"> </script>
+					
+					
+		<div id="googleMap" style="width: 100%; height: 330px; border-radius: 10px;"> </div>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+						
+		<script>
+			function initialize () { /*초기화*/
+				var mapProp = {
+					center: new google.maps.LatLng(37.4981852,126.8671971),
+					zoom: 14, /*몇배로 볼지 설정*/
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+				var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+			}
+						
+			google.maps.event.addDomListener(window,'load', initialize);
+		</script>
+	</article>
+	
+	
+	<div>
+		<a href="intro_1.html"><img class="yizen" src="images/yizen.png" ></a>
+		<a href="intro_3.html"><img class="next" src="images/next.png" ></a>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

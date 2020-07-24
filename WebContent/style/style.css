@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+
+
+body {
+	background-color: FloralWhite;
+	color: #880044;
+}
+
+h1 {
+	font-family: 'Alfa Slab One';
+	font-size: 35px;
+	letter-spacing: 5px;
+	text-align: center;
+	padding:  auto;
+	margin: 40px 0 20px 0;
+	color: #880044;
+	text-shadow: 3px 3px 4px #c0c0c0; 
+}
+h2 {
+	font-family: 'Germania One';
+	letter-spacing: 3px;
+	text-align: center;
+	background-color: #ffe3f1;
+	padding: 5px;
+}
+h1 a{
+	text-align: center;
+	text-decoration: none;	
+	color: #880044;
+}
+h1 a:hover{
+	text-align: center;
+	text-decoration: none;
+	color: #d20069;
+}
+article{
+	margin-top: 15px;
+	margin-left: 35px;
+	border: 5px solid #ffd7eb;
+	border-radius: 10px;
+	width: 90%;
+}
+footer p{
+	text-transform: uppercase;
+	font-family: 'Poor Story';
+}
+
+footer {
+	float: left;
+	width: 100%;
+	margin: 10px auto;
+	font-size: 70%;
+	padding: 20px 0 5px 0;
+	text-align: center;
+	background-color: transparent;
+	color: #808080;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-family: 'Poor Story';
+}
+footer a {
+	text-decoration: none;
+	color: #808080;
+}
+footer a:hover{
+	text-decoration: underline;
+	color: purple;	
+}
+/******************************메뉴 부분*****************************/
+ul#menu {
+	width: 800px;
+	margin: 25px auto;
+}
+ul li{
+	color: #880044;
+	list-style-type: none;
+	width: 200px;
+	float: left;
+	background-color: #ffe3f1;
+}
+ul li a{
+	color: #880044;
+	text-align: center;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	font-family: 'Bitter';
+	font-size: 125%;
+	background-color: #ffe3f1;
+}
+ul li a:hover {
+	background-color: FloralWhite;
+}
+ul#menu li.selected, ul#menu li.selected a, ul#menu li.selected a:hover {
+	background-color:  #ffbbdd;
+	color: #800000;
+}
+
+ul#menu li.selected:hover, ul#menu li.selected a:hover {
+	background-color: #f8e9e9;
+	color: #7d0240;
+}
+iframe {
+	border: 1px solid  #ffb7db;
+	border-radius: 10px;
+	margin: 25px auto;
+	display: block;
+}
+#intro {
+	display: block;
+	float: left;
+	margin: 0 10px 10px 20px;
+}
+#intro figcaption{
+	font-family: 'Poor Story';
+	text-align: center;
+}
+.next {
+	float: right;
+	margin: 0px;
+	display: block;
+	}
+.yizen{
+	float: left;
+	margin: 0px;
+	display: block;
+		}
+.kz {
+	display: block;
+	margin : 30px 66px;
+	float: left;
+	}
+#sponsor{
+	margin: 35px;
+	font-family: 'Noto Serif KR';
+	font-size: 15px;
+	text-indent: 15px;
+	color: black;
+	line-height: 1.7;  
+	padding: 5px;
+}
+h3 {
+	font-family: 'Poor Story';
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-align: center;
+	padding:  auto;
+	margin: 30px 5px 20px 5px;
+	color: #880044;
+	text-shadow: 3px 3px 4px #eaeaea; 
+}
+ol li, ol li a{
+	font-family: 'Poor Story';
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-align: center;
+	text-decoration: none;
+	margin: 80px 10px 0px 0px;
+	color: black;
+}
+ol li a:hover{
+	text-decoration: underline;
+	color: #d20069;
+}
+
+pre{
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Hi Melody';
+	color: #535353;
+	margin: 10px;	
+	}
+ul.heroesNews {
+	float: left;
+	margin-bottom: 30px;
+	padding-bottom: 9px;
+	width: 770px
+}
+
+ul.heroesNews li.news {
+	float: left;
+	padding: 30px 0 10px 0;
+	border-top: 1px dotted #999;
+	font-size: 10px;
+	letter-spacing: 0.5px;
+	width: 760px
+}
+ul li img {
+	float: left;
+	margin: auto 10px;
+}
+
+section table {
+	width: 270px;
+	border: 5px solid #880044;
+	margin: 0 50px;
+	background: #ffe3f1;
+	float: left;
+	
+}
+#table1 {
+	margin: 0 10px 0 100px;
+}
+table th{
+	padding: 10px 5px;
+	width: 40px;
+	font-size: 15px;
+}
+table th, table td {
+	border: 1px dotted brown;
+	background:  url("../images/back3.png");
+}
+/* font-family: 'Gamja Flowers'; */
+
+.art {
+	animation-duration: 4s;
+	animation-name: slidein; /* 익스 플로러 */
+	
+	-webkit-animation-duration: 4s;
+	-webkit-animation-name: slidein; /* 크롬 외 그 외 */
+	
+	-moz-animation-duration: 4s;
+	-moz-animation-name: slidein; /* 모질라 */
+}
+
+@keyframes slidein { /* 중간 상태 정의 (중간 상태의 이름을 slidein이라고 정의) */
+from { 
+	opacity: 0;
+
+	}
+to{
+	opacity: 1;
+	
+	}
+}
+@-webkit-keyframes slidein { /* 중간 상태 정의 (중간 상태의 이름을 slidein이라고 정의) */
+	opacity: 0.1;
+
+	}
+to{
+	opacity: 1;
+	}
+}
+.2bai:hover {
+		transform: scale(1.5, 1.5);
+}
+
+
+
